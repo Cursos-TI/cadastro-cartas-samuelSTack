@@ -54,7 +54,7 @@ int main() {
 
     printf("Primeira carta cadastrada: %s\n", carta);
 
-    printf("Hora da segunda \n Digite o número da carta:\n");
+    printf("Hora da segunda \nDigite o número da carta:\n");
     fgets(cart, 50, stdin);
 
     printf("Para continuar digite seu estado:\n");
@@ -68,7 +68,7 @@ int main() {
 
     printf("Agora preciso do número da População:\n");
     scanf("%d", &populaca);
-    while(getchar() != '\n'); // limpa o buffer
+    while(getchar() != '\n');
 
     printf("Digite agora a área:\n");
     scanf("%f", &area_k);
@@ -84,33 +84,24 @@ int main() {
 
     printf("Segunda carta cadastrada: %s\n", cart);
 
-printf("Carta: %s\n", carta);
-printf("Estado: %s\n", estado);
-printf("Código: %s\n", codigo);
-printf("Nome: %s\n", nome);
-printf("População: %d\n", populacao);
-printf("Área: %.2f km²\n", area_km);
-printf("PIB: %.2f\n", PIB);
-printf("Pontos turísticos: %d\n", numero_pontos);
-
+    printf("Carta: %s\n", carta);
+    printf("Estado: %s\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Nome: %s\n", nome);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area_km);
+    printf("PIB: %.2f\n", PIB);
+    printf("Pontos turísticos: %d\n", numero_pontos);
 
     //segunda carta
-printf("\nCarta: %s\n", cart);
-printf("Estado: %s\n", estad);
-printf("Código: %s\n", codig);
-printf("Nome: %s\n", nom);
-printf("População: %d\n", populaca);
-printf("Área: %.2f km²\n", area_k);
-printf("PIB: %.2f\n", PI);
-printf("Pontos turísticos: %d\n", numero_ponto);
- 
-
-
-
-
-
-
-
+    printf("\nCarta: %s\n", cart);
+    printf("Estado: %s\n", estad);
+    printf("Código: %s\n", codig);
+    printf("Nome: %s\n", nom);
+    printf("População: %d\n", populaca);
+    printf("Área: %.2f km²\n", area_k);
+    printf("PIB: %.2f\n", PI);
+    printf("Pontos turísticos: %d\n", numero_ponto);
 
     return 0;
 }
